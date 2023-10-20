@@ -1,0 +1,95 @@
+
+.card{
+    text-align: center;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    border: 1px solid white;
+    box-shadow: 2px 2px 12px 10px rgb(231, 231, 231);
+}
+.card-header {
+    border-bottom: 1px solid white;
+    height: 40px;
+}
+
+.card-img-top {
+    width: 150px; 
+    height: 100px; 
+    object-fit: cover;
+}
+#title{
+    height: 50px;
+    color: rgb(0, 64, 255) !important;
+    background-color: rgb(255, 255, 255);
+    text-transform: uppercase;
+    border-radius: 10px;
+    font-weight: 700;
+    font-size: 40px;
+    box-shadow: 2px 2px 12px 10px rgb(231, 231, 231);
+}
+.card-header {
+    color: rgb(0, 0, 217);
+}
+
+#col-container{
+    padding: 10px;
+}
+.body-con {
+    color: rgb(70, 42, 127);
+    padding-top: 15px;
+    font-weight: bold;
+
+}
+.img-con {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+button[type='submit'] { 
+    background-color: rgb(129, 15, 222) !important;
+    border: 0 !important;
+    padding: 10px;
+}
+button[type='submit']:hover {
+    background-color: rgb(4, 0, 255) !important;
+
+}
+
+@media screen and (max-width:600px) {
+    #title{
+        font-size: 2em;
+    
+    }
+}
+.input-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+#search-bar{
+    width: 50%;
+    height: 40px;
+    background-color: #ffffff;
+    color: #555;
+    padding: 10px 25px;
+    border-radius: 30px;
+    margin-right: 16px;
+    font-size: 18px;
+    box-shadow: 2px 2px 12px 10px rgb(224, 231, 255);
+}
+.input-box button {
+    border: 0;
+    outline: 0;
+    background-color: #ffffff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    cursor: pointer;
+    box-shadow: 2px 2px 12px 10px rgb(231, 234, 254);
+}
+.input-box button img {
+    width: 14px;
+}
